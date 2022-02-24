@@ -1,0 +1,11 @@
+Building the Machine Learning models
+
+Random Forest:
+Random Forest Algorithm also known as Random Decision Forest is a supervised classification model used in constructing decision trees for training and to get the mean prediction of all involved decision trees. Unlike Decision trees which use information of gain index for calculating root nodes, here in the random forest process of finding root nodes and splitting featured nodes will happen randomly.
+f=1Bb = 1Bfb(x’)
+In this work we used Random forest to predict the diabetic test report and the results were found out to be corresponding to the actual output with the accuracy of cent percent.
+
+LightGBM:	
+LightGBM is a gradient boosting framework which is a type of tree-based learning algorithms. Unlike other algorithms which follow level-wise tree growth, LightGBM grows the tree leaf-wise. LightGBM is designed to be well organised with many aspects and advantages such as more capability to handle large data with minimal memory usage, faster training speed with good productivity and hold up parallel and GPU(Graphical Processing Unit) learning.The Histogram based splitting, GOSS (Gradient based One sided sampling) and EFB (Exclusive feature Bundling) attributes makes LightGBM accelerated than other algorithms.
+
+Operations such as Binary and Multi-Class Classification, Regression, Lambdrank and Cross-Entropy are supported by LightGBM. In this work we employ Multi-Class Classification where the output prediction  is categorized to four disease risks of diabetes. All the parameters of the algorithm are well set to ideal values based on the dataset to obtain maximum accuracy for  prediction
